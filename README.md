@@ -4,7 +4,7 @@
 
 
 1. [Description](#description)
-2. [Application image](#Application image)
+2. [Screenshot](#Screenshot)
 3. [usage](#usage)
 4. [License](#License)
 5. [Contributing](#Contributing)
@@ -17,7 +17,7 @@
 This command line application generates a good ReadMe sample by prompting the user for all of the information that comprises the content of a ReadMe, then inputs the data into a  template and saves the ReadMe to the current working directory. It is run in Node.js and uses the inquirer npm package to prompt the user for content then the file system package creates the file and writes the generated data to it.
 
 
-## Application image
+## Screenshot
 
 ![image](https://user-images.githubusercontent.com/115763652/214293858-41313da5-3978-4abe-8d0c-0996f08090f8.png)
 
