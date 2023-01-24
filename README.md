@@ -2,14 +2,15 @@
 
 ## Table of Contents
 
-.Description
-.Application image
-.Usage
-.License
-.Contributing
-.Tests
-.Questions
-.Installation
+
+1. [Description](#description)
+2. [Application image](#Application image)
+3. [usage](#usage)
+4. [License](#License)
+5. [Contributing](#Contributing)
+6. [Test](#Test)
+7. [Question](#Question)
+8. [Isntallation](#Installation)
 
 
 ## Description
