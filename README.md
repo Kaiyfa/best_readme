@@ -1,21 +1,15 @@
 # best_readme
 
 ## Table of Contents
-Description
-Application image
-Usage
-License
-Contributing
-Tests
-Questions
-Installation
-Description
-Installation
-Usage
-Tests
-Contributing
-License
-Questions
+
+.Description
+.Application image
+.Usage
+.License
+.Contributing
+.Tests
+.Questions
+.Installation
 
 
 ## Description
