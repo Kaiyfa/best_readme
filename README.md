@@ -9,6 +9,13 @@ Contributing
 Tests
 Questions
 Installation
+Description
+Installation
+Usage
+Tests
+Contributing
+License
+Questions
 
 
 ## Description
