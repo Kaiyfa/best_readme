@@ -19,7 +19,7 @@ This command line application generates a good ReadMe sample by prompting the us
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/115763652/214293858-41313da5-3978-4abe-8d0c-0996f08090f8.png)
+![image](https://user-images.githubusercontent.com/115763652/215164911-8ca5cfd0-ecb5-4ca8-b839-c6612e5bc250.png)
 
 ## Usage
 
