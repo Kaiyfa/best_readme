@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -96,24 +95,17 @@ askMultiStepQuestion = async (firstTimeQuestion, followingQuestion) => {
 };
 
 
-
-// Function to write README file
-writeToFile = async (fileName, data) => {
-    const writeFileAsync = util.promisify(fs.writeFile);
-    //use process.cwd to ensure readme gets saved to current working directory
-    await writeFileAsync(path.join(process.cwd(), fileName), data);
-};
-
 // Function to initialize app
-init = async () => {
-    const question = await askQuestions();
-    // const markdown = generatedFunctions(question);
-    try {
-        await writeToFile('readMe.md', markdown);
-    }
-    catch (err) {
-        if (err) { throw err };
-    }
+const init = () => {
+    askQuestions().then((answers) => {
+        try {
+            const md = generateMarkdown(answers);
+            fs.writeFileSync('newReadme.md', md);
+            console.log('You successfully wrote a readme.md');
+        } catch (error) {
+            console.log(error);
+        }
+    });
 };
 
 
